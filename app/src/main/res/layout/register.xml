@@ -16,7 +16,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_gravity="center"
-            android:background="@mipmap/ic_launcher" />
+            android:background="@drawable/logo" />
 
         <TextView
             android:id="@+id/TextView1"
@@ -44,7 +44,15 @@
             android:layout_marginTop="30dip"
             android:text="REGISTER BELOW"
             android:textSize="16dip" />
-
+        <EditText
+            android:id="@+id/txt_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:hint="Nama"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"/>
         <EditText
             android:id="@+id/txt_username"
             android:layout_width="match_parent"
@@ -64,15 +72,17 @@
             android:hint="Password"
             android:password="true"
             android:singleLine="true" />
-
         <EditText
-            android:id="@+id/txt_confirm_password"
+            android:id="@+id/txt_level"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:hint="Comfirmation Password"
-            android:password="true" />
+            android:text="user"
+            android:inputType="textEmailAddress"
+            android:singleLine="true" />
+
+
 
         <Button
             android:id="@+id/btn_register"
